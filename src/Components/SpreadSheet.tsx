@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react'
 const SpreadSheet: React.FC = () => {
   const cols:number = 26;
   const rows :number =15;
-  const [editable, setEditable] = useState(false);
+  const [editable, setEditable] = useState<boolean>(false);
 
   const containerRef = useRef<HTMLDivElement>(null);
 
